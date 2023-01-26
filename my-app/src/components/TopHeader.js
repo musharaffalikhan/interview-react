@@ -97,7 +97,7 @@ const TopHeader = () => {
           alignItems: "center",
         }}
       >
-        <div style={{ paddingLeft: "70px" }}>
+        <div>
           <Stack direction={"row"} spacing={1}>
             <div style={{ display: "flex", alignItems: "center" }}>
               <Typography
@@ -212,7 +212,7 @@ const TopHeader = () => {
             />
           </svg>
         </div>
-        <div style={{ paddingRight: "70px" }}>
+        <div>
           <Stack direction={"row"} spacing={2} alignItems="center">
             <Typography>Blog Name Here</Typography>
             <Typography>Meet the Lawyers</Typography>
